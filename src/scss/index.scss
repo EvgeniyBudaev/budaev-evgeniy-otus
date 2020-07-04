@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import "~normalize.css";
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  overflow-x: hidden;
+  position: relative;
+  min-width: 320px;
+}
+
+ul,li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
