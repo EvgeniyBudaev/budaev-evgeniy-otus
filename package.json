@@ -1,0 +1,30 @@
+{
+  "name": "budaev-evgeniy-otus",
+  "version": "1.0.0",
+  "description": "Test Driven Development",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^26.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testURL": "http://localhost"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvgeniyBudaev/budaev-evgeniy-otus.git"
+  },
+  "keywords": [
+    "javascript",
+    "test"
+  ],
+  "author": "Evgeniy Budaev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvgeniyBudaev/budaev-evgeniy-otus/issues"
+  },
+  "homepage": "https://github.com/EvgeniyBudaev/budaev-evgeniy-otus#readme"
+}
