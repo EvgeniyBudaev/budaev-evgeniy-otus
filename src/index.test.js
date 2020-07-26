@@ -1,7 +1,10 @@
-const getPath = require('./index')
+const getPath = require('./main')
 
 test('find selector', () => {
-  expect(getPath('.app')).toEqual('<div class="app" id="root"></div>')
+
+  expect(getPath('.testClass')).toBe('<div class="testClass">Кликните на текст и посмотрите в консоле</div>')
 })
+
+
 
 
